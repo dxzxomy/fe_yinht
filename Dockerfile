@@ -13,4 +13,4 @@ WORKDIR /fe_yinht
 RUN npm install --registry=https://registry.npm.taobao.org && \
     npm run build:prod
 
-CMD ["cp", "-rp", "/fe_kscrcdn/dist/.", "/data/"]
+CMD ["cp", "-rp", "/fe_yinht/dist/.", "/data/"]
